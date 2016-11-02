@@ -1,10 +1,4 @@
-'''
-SUMMARY:  config file
-AUTHOR:   Qiuqiang Kong
-Created:  2016.06.23
-Modified: 
---------------------------------------
-'''
+
 
 # development
 ori_dev_root = '/vol/vssp/datasets/audio/dcase2016/chime_home'
