@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append('/user/HS103/yx0001/Downloads/Hat')
+sys.path.append('your_dir/Hat')
 import pickle
 import numpy as np
 np.random.seed(1515)
@@ -39,7 +39,7 @@ feadim=40
 
 # load model
 #md = serializations.load( cfg.scrap_fd + '/Md/md20.p' )
-md=load_model('/vol/vssp/msos/yx/chime_home/DCASE2016_task4_scrap_1ch_mfcc/Md/dnn_daeRelu50out1frNoDP_fold0_fr91_bcCOST_keras_weights.16-0.29.hdf5')
+md=load_model('your_dir/model.hdf5')
 
 scaler = pp_data.GetScaler( fe_fd, fold )
 
